@@ -30,6 +30,15 @@
 8- What does need the Batch Layer be able to do and why does it has great advantages?
 * It need to store and immutable, constantly growing master dataset and compute arbitrary fuctions on that dataset. The advantages of the batch layers is that is simple to use and its batch computations are written like single.threaded programs that give you parallelism for free, it's easy to write robust and highly scalablle.
 
-9- 
-batch view=function(all data)
-query = function(batch view)
+9- What is the Serving Layer, how does it work and what need to support?
+* It's a specialized distributed database that load in the batch view automatically swaping when more result are available. This need to support batch updates and random reads.
+
+10- How does work the Speed Layer and what is its difference between the Batch Layer?
+* It works producing views based on data it recieves but this only looks at recent data, whereas the batch layer looks at all data at once. In addition to that the speed layer doesn't look at all the new data at once, instead it updates the realtime view as it recieves new data instead of recomputing the whole views
+
+11- How is summarized the Lambda Architecture?
+* batch view = function(all data)
+* realtime view = function(realtime view, new data)
+* query = function(batch view, realtime view)
+
+12-
