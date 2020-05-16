@@ -24,3 +24,7 @@
 
 ### Problems with fully incremental architectures
 
+7- What is **Compaction** and why do you need to avoid it?
+* It's the action to reclaim space in order to prevent the disk from filling up by the writing and write database. You must avoid it because the reclaiming space become expensive because it has higher demand on the CPU wich dramatically lowers the performance of the machines during a time even with the posibility to cause cascading failure making overload on the rest of the cluster.
+
+8- 
