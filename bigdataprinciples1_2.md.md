@@ -46,4 +46,7 @@
 
 ## Chapter 2
 
-1-
+1- Why is important to share Raw Data?
+* Because with the raw data you maximize yout ability to obtain new insights, whereas summarizing, overwriting or deleting information limits what your data can tell you.
+
+2. 
