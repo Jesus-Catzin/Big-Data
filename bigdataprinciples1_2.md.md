@@ -27,4 +27,9 @@
 7- What is **Compaction** and why do you need to avoid it?
 * It's the action to reclaim space in order to prevent the disk from filling up by the writing and write database. You must avoid it because the reclaiming space become expensive because it has higher demand on the CPU wich dramatically lowers the performance of the machines during a time even with the posibility to cause cascading failure making overload on the rest of the cluster.
 
-8- 
+8- What does need the Batch Layer be able to do and why does it has great advantages?
+* It need to store and immutable, constantly growing master dataset and compute arbitrary fuctions on that dataset. The advantages of the batch layers is that is simple to use and its batch computations are written like single.threaded programs that give you parallelism for free, it's easy to write robust and highly scalablle.
+
+9- 
+batch view=function(all data)
+query = function(batch view)
