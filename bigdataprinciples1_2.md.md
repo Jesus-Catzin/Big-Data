@@ -44,4 +44,6 @@
 12- What is *Complexity isolation*?
 * It's the capacity to discard  pieces  of  the  realtime  view  as  they’re  no  longer needed, other words because they are only temporary.
 
-13- 
+## Chapter 2
+
+1-
