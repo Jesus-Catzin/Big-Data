@@ -46,21 +46,27 @@
 
 ## Chapter 2
 
-1- Why is important to share Raw Data?
+1- What is the most important part of Lamda architecture must be safeguarded from corruption?:
+* The master Dataset
+
+2- Why is important to share Raw Data?
 * Because with the raw data you maximize yout ability to obtain new insights, whereas summarizing, overwriting or deleting information limits what your data can tell you
 
-2- What is *Semantic Normalization*?
+3- What is *Semantic Normalization*?
 * Ts  the  process  of  reshaping  free-form information into a structured form of data.
 
-3- Why is better to save unstructure data?
+4- Why is better to save unstructure data?
 * It's better to store the unstructure data because you can improve, change or renormalize your data at a later time when you need it.
 
-4- Why is important to use immutable data and which benifits offer?
+5- Why is important to use immutable data and which benifits offer?
 * Because with it you avoid to overwrite your data and lost them. This allow you tack each field of user information in a separate table and you tie each unit of data to a moment in time when the information is known to be true.
 
-5- Which are the main point for the fact-based model?
+6- Which are the main point for the fact-based model?
 * Stores your raw data as atomic facts
 * Keeps the facts immutable and eternally true by using timestamps 
 * Ensures each fact is identifiable so that query processing can identify duplicates
 
-6-
+7- Which are the advantages to make facts identifiable?
+* You can write the same fact to the master dataset multiple times without changing the samantics of the master dataset and your queries can filter out the duplicate facts when doing their computations.
+
+8-
