@@ -54,3 +54,13 @@
 
 3- Why is better to save unstructure data?
 * It's better to store the unstructure data because you can improve, change or renormalize your data at a later time when you need it.
+
+4- Why is important to use immutable data and which benifits offer?
+* Because with it you avoid to overwrite your data and lost them. This allow you tack each field of user information in a separate table and you tie each unit of data to a moment in time when the information is known to be true.
+
+5- Which are the main point for the fact-based model?
+* Stores your raw data as atomic facts
+* Keeps the facts immutable and eternally true by using timestamps 
+* Ensures each fact is identifiable so that query processing can identify duplicates
+
+6-
