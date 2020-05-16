@@ -69,4 +69,10 @@
 7- Which are the advantages to make facts identifiable?
 * You can write the same fact to the master dataset multiple times without changing the samantics of the master dataset and your queries can filter out the duplicate facts when doing their computations.
 
-8-
+8- Which are the benefits of the *Fact-based model* and why?
+* Is queryable at any time in its history: "Updates" and "Deletes" works adding new fact with more recent time-stamps,but because no data is actually removed you can reconstruct the state of the world at the time specified by your query
+* Tolerates human errors:Is achieved by simply deleting any erroneous facts.
+* Handles partial information: Because any  “absent”  fact  would  be  logically  equivalent  to  NULL
+* Has the advantages of both normalized and denormalized forms: By storing the information at both the batchand serving layers, you have the benefit of keeping your data in both normalized anddenormalized forms
+
+9- 
