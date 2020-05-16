@@ -74,5 +74,3 @@
 * Tolerates human errors:Is achieved by simply deleting any erroneous facts.
 * Handles partial information: Because any  “absent”  fact  would  be  logically  equivalent  to  NULL
 * Has the advantages of both normalized and denormalized forms: By storing the information at both the batchand serving layers, you have the benefit of keeping your data in both normalized anddenormalized forms
-
-9- 
