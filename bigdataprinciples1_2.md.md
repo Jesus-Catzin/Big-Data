@@ -52,5 +52,5 @@
 2- What is *Semantic Normalization*?
 * Ts  the  process  of  reshaping  free-form information into a structured form of data.
 
-3. Why is better to save unstructure data?
+3- Why is better to save unstructure data?
 * It's better to store the unstructure data because you can improve, change or renormalize your data at a later time when you need it.
