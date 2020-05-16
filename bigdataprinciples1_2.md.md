@@ -47,6 +47,10 @@
 ## Chapter 2
 
 1- Why is important to share Raw Data?
-* Because with the raw data you maximize yout ability to obtain new insights, whereas summarizing, overwriting or deleting information limits what your data can tell you.
+* Because with the raw data you maximize yout ability to obtain new insights, whereas summarizing, overwriting or deleting information limits what your data can tell you
 
-2. 
+2- What is *Semantic Normalization*?
+* Ts  the  process  of  reshaping  free-form information into a structured form of data.
+
+3. Why is better to save unstructure data?
+* It's better to store the unstructure data because you can improve, change or renormalize your data at a later time when you need it.
