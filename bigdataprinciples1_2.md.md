@@ -74,3 +74,12 @@
 * Tolerates human errors:Is achieved by simply deleting any erroneous facts.
 * Handles partial information: Because any  “absent”  fact  would  be  logically  equivalent  to  NULL
 * Has the advantages of both normalized and denormalized forms: By storing the information at both the batchand serving layers, you have the benefit of keeping your data in both normalized anddenormalized forms
+
+
+## Chapter 3:
+
+1- What is Apache Thrift? 
+* It's a scalable cross-language services development, which combine a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages.
+
+2- How do we tying everything together into data objects (For example the page properties and properties people)?
+* We need to wrap every property and edge type into a DataUnit Union.
