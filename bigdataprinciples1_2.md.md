@@ -108,4 +108,11 @@
 2- Why you shouldn't use Key/value store for the master dataset?
 * Because it has a lot of things you don't need like: random  reads,  random  writes,  and  all  the  machinery  behind  making  thosework.
 
-3- 
+3- Which is one difference of distributed filesystens again regular filesystems?
+* You may not be able to write to the middle of a file  or even modify a file at all after creation.
+
+4- Which are the two types of nodes in HDFS cluster?
+* The single namenode and multiple datanodes.
+
+5. What is Vertica Partitioning?
+* It's when the bach storage should allow you to partition your data so that a functions only accesses data relevant to its computation. 
