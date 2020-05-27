@@ -100,3 +100,12 @@
 
 ## Chapter 4.
 
+1- Which are the 3 requirements to storage the master dataset?
+* Write: Efficient to append new data and Scalable Storage
+* Read: Support for paraller processing
+* When is needed both: Tunable Storage and processing cost. Enforceable Immutability.
+
+2- Why you shouldn't use Key/value store for the master dataset?
+* Because it has a lot of things you don't need like: random  reads,  random  writes,  and  all  the  machinery  behind  making  thosework.
+
+3- 
