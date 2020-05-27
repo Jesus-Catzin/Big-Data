@@ -83,3 +83,20 @@
 
 2- How do we tying everything together into data objects (For example the page properties and properties people)?
 * We need to wrap every property and edge type into a DataUnit Union.
+
+3-What is the best way to represent a Property?
+* It's using a union structure.
+
+4- Why is important the Envolving Propierty? 
+* Because as your business requirements change, new kind of data will be add. 
+
+5- Which are the rules to obey when you want to  change the schema? 
+* Field may be renamed 
+* A filed may be removed buy you must never reuse that field ID.
+* Only  optional  fields  can  be  added  to  existing  structs.
+
+6- Which is one of the limitations of Serialization Frameworks?
+* That they only check that all required fields are present and are of the expected type but they are unable to check richer propierties.
+
+## Chapter 4.
+
